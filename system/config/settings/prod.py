@@ -11,7 +11,7 @@ ALLOWED_HOSTS = ["app.jc-django.tk", "129.151.110.171"]
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = db.SQLITE3
+DATABASES = db.POSTGRESQL
 
 
 # Static files (CSS, JavaScript, Images)
