@@ -1,0 +1,31 @@
+# VScode Settings
+*.code-*
+
+# Python Cache
+*.pyc
+
+# Secret Keys
+system/.env
+system/.venv
+
+# Files Bashs
+bashs/*
+
+# Dabase local
+system/config/db/db.sqlite3
+
+# Migrations
+system/apps/**/migrations/*.py
+!system/apps/**/migrations/__init__.py
+
+# Fixtures
+system/apps/**/fixtures/*
+
+# Static and Media Files
+system/staticfiles/*
+system/media/*
+
+# Files and Folder Deployed
+bin/*
+logs/*
+run/*
