@@ -5,7 +5,7 @@
 *.pyc
 
 # Secret Keys
-system/.env
+#system/.env
 system/.venv
 
 # Files Bashs

@@ -15,7 +15,7 @@ POSTGRESQL = {
         'NAME': get_secret_env('POSTGRES_DB'),
         'USER': get_secret_env('POSTGRES_USER'),
         'PASSWORD': get_secret_env('POSTGRES_PASS'),
-        'HOST': get_secret_env('POSTGRES_HOST'),
-        'PORT': get_secret_env('POSTGRES_PORT'),
+        'HOST': "localhost",
+        'PORT': 5432
     }
 }

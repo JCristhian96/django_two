@@ -5,8 +5,7 @@ from . import db
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["app.jc-django.tk", "129.151.110.171"]
-
+ALLOWED_HOSTS = ["www.django-two.com", "192.168.10.16", "django-two.com"]
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
